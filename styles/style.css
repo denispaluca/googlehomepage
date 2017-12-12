@@ -15,18 +15,28 @@ ul {
 
 li {
     float: right;
-
-}
-
-li a {
     display: block;
     text-align: center;
-    color: #000000;
-    padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
 }
-
+a {
+  color: #000000;
+  text-decoration: none;
+}
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     text-decoration: underline;
+}
+
+.imgnav {
+  padding: 0px 0px;
+  margin: 0px 0px;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+button {
+  color:white;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
 }
