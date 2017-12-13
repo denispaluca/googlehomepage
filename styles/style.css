@@ -1,25 +1,56 @@
 img {
   display: block;
   margin: auto;
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
 
 
 }
-ul {
+#top {
     list-style-type: none;
     margin: 0;
     padding: 0 20px 0 0;
     overflow: hidden
 }
 
-li {
+#bot {
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #e4e4e4;
+  overflow: hidden;
+  background-color: #f2f2f2;
+}
+
+#top li {
     float: right;
     display: block;
     text-align: center;
     padding: 10px 10px;
-    text-decoration: none;
+    text-decoration: none
 }
+
+#bot li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+#bot li a{
+  text-decoration: none;
+  color:#666;
+}
+
+#bot .right {
+  float: right !important;
+}
+
 .topitm{
   color: #222;
   text-decoration: none;
