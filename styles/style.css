@@ -9,8 +9,8 @@ img {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
+    padding: 0 20px 0 0;
+    overflow: hidden
 }
 
 li {
@@ -20,9 +20,13 @@ li {
     padding: 10px 10px;
     text-decoration: none;
 }
-a {
-  color: #000000;
+.topitm{
+  color: #222;
   text-decoration: none;
+  font-size: 13px;
+  font-family: arial,sans-serif;
+  position: relative;
+  top: 5.5px
 }
 /* Change the link color to #111 (black) on hover */
 li a:hover {
@@ -30,13 +34,17 @@ li a:hover {
 }
 
 .imgnav {
-  padding: 0px 0px;
+  opacity: 0.55;
+  padding-top: 5px;
   margin: 0px 0px;
-  width: 30px !important;
-  height: 30px !important;
+  width: 25px !important;
+  height: 25px !important;
 }
 
 button {
   color:white;
+  border: 8px solid #4387fd;
+  border-radius: 3px;
+  font-weight: bold;
   background: -webkit-linear-gradient(top,#4387fd,#4683ea);
 }
